@@ -1,6 +1,6 @@
 /**
  * StringDemo.java
- * @author Octobershiner
+ * @author leeon
  * @version 1.0
  * 2012 4 2 
  * */
@@ -14,18 +14,17 @@ public class StringDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str1 = "string";
 		String str4 = "string";
 		String str2 = new String("string");
 		String str3 = new String("string");
 		
-		/*���ڲ������ִ����ַ�ʽ�����*/
+
 		System.out.println(str1 == str4);
 		System.out.println(str2 == str3);
 		System.out.println(str3 == str1);
 		
-		str3 = str3.intern(); //һ��������ķ���
+		str3 = str3.intern(); 
 		System.out.println(str3 == str1);
 		
 		StringBuilder sb = new StringBuilder("string builder");
@@ -37,9 +36,9 @@ public class StringDemo {
 		
 		for(int i = 0; i < 50000; i++)
 		{
-			//str1+= " ";   /*����string*/
-			sf.append(" ");   /*����StringBffer*/
-			//sb.append(" ");   /*����StringBuilder*/
+			//str1+= " ";   /*string*/
+			sf.append(" ");   /*StringBffer*/
+			//sb.append(" ");   /*StringBuilder*/
 		}
 		
 		long end = System.currentTimeMillis();
