@@ -1,4 +1,4 @@
-package octsky.java.init;
+package hit.jt.init;
 
 
 

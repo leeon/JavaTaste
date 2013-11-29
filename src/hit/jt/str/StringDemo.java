@@ -5,7 +5,7 @@
  * 2012 4 2 
  * */
 
-package octsky.java.str;
+package hit.jt.str;
 
 /*this is a class testing some string use */
 public class StringDemo {

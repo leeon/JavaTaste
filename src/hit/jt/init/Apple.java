@@ -1,4 +1,4 @@
-package octsky.java.init;
+package hit.jt.init;
 public class Apple extends Fruit{
    //静态块
     static{

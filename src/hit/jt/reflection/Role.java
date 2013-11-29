@@ -1,4 +1,4 @@
-package octsky.java.reflection;
+package hit.jt.reflection;
 
 /**
  * A base class having some attributes and methods

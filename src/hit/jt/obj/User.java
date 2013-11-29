@@ -1,4 +1,4 @@
-package octsky.java.obj;
+package hit.jt.obj;
 
 public class User {
     private int id;
