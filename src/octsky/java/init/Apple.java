@@ -1,10 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package org.leeon.java.init;
-
-
+package octsky.java.init;
 public class Apple extends Fruit{
    //静态块
     static{

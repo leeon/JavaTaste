@@ -1,4 +1,4 @@
-package org.leeon.java.reflecttion;
+package octsky.java.reflection;
 
 /**
  * A base class having some attributes and methods

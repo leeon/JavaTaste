@@ -5,7 +5,7 @@
  * 2012 4 2 
  * */
 
-package org.leeon.java.str;
+package octsky.java.str;
 
 /*this is a class testing some string use */
 public class StringDemo {
